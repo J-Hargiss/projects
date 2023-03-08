@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Arial", sans-serif;
+}
+
+.topbox1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.topbox1, .top1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top1 {
+    height: 80px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+.search {
+    width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 5px;
+    border: 2px lightgrey solid;
+}
+.leaf {
+    background-color: #17b8ad;
+    border-radius: 8px;
+    height: 50px;
+}
+.cart {
+    height: 40px;
+}
+.signin {
+    text-decoration: none;
+    color: black;
+}
+
+
+.topbox2, .toplinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbox2 {
+    justify-content: center;
+}
+.toplinks {
+    width: 1000px;
+    list-style-type: none;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 4px black solid;
+    margin-bottom: 30px;
+}
+.toplinks a{
+    color: black;
+    text-decoration: none;
+}
+.slogan {
+    display: flex;
+    font-size: 2.1em;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.maincontainer {
+    margin: 0 auto;
+    width: 1000px;
+}
+.top {
+    display: flex;
+}
+.leftcolumn {
+    flex: 2;
+}
+.rightcolumn {
+    flex: 1;
+}
+.block1 {
+    display: flex;
+    margin-right: 20px;
+}
+.blocktext {
+    display: flex;
+    background-color:#17b8ad;
+    color: white;
+    height: 320px;
+    font-size: 1.5em;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.arrow {
+    width: 25px;
+}
+.plants1 {
+    height: 320px;
+    width: 320px;
+}
+
+.aloe {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.blocktext2 {
+    display: flex;
+    background-color:#17b8ad;
+    width: auto;
+    height: 60px;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+.arrowsmall {
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+
+.bottom {
+    width: 1000px;
+    background-color: #17b8ad;
+    margin-top: 20px;
+}
+.plantlist {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 20px;
+    list-style-type: none;
+    font-size: .93em;
+}
+.plant{
+    height: 90px;
+    border-radius: 50%;
+}
+.planttext {
+    display: flex;
+    list-style-type: none;
+    font-size: .93em;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.cookies {
+    display: flex;
+    margin: 30px;
+    border: 2px black solid;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+}
+.accept {
+    background-color:#17b8ad;
+    box-shadow: 2px 2px black;
+    border: 2px black solid;
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.alert {
+    height: 40px;
+    margin: 10px;
+}
